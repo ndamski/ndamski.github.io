@@ -1,9 +1,2 @@
-<<<<<<< HEAD
-github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.0-beta.7 h1:E+WNMJsBkIS3r80GKA6SdTCmrs5g8Nysc/bN+UwBtgU=
-github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.0-beta.7/go.mod h1:6SWZIQIut6uVjxhLraexYzgtdNDrod0xnfM/to6D/1I=
-=======
-github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.0-beta.5 h1:CezJinFPotrNCrOla1qsZEe5YlO8zEzzNYViCAIFLvA=
-github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.0-beta.5/go.mod h1:6SWZIQIut6uVjxhLraexYzgtdNDrod0xnfM/to6D/1I=
 github.com/eddiewebb/hugo-resume v0.0.0-20260219174333-40757d34666d h1:r2LnBi0xJ//02J2951qRNZrtVRZYCzjSMvRGXDcog4c=
 github.com/eddiewebb/hugo-resume v0.0.0-20260219174333-40757d34666d/go.mod h1:ZmSG1Cya+2BJZ3zkWbRGzhLI9kHAmkodraK7tzOuD9U=
->>>>>>> 6eb5da2 (Updated template and filled in info)
