@@ -5,6 +5,7 @@ title = "Noah Damski"
 defaultContentLanguage = "en"
 
 [params]
+    sections     = ["publications", "blog"]
     firstName    = "Noah"
     lastName     = "Damski"
     address      = "Gainesville, Florida"
@@ -12,8 +13,6 @@ defaultContentLanguage = "en"
     contactEmail = "ndamski@ufl.edu"
     description  = "Economics & International Studies student at the University of Florida."
     profileImage = "img/avatar.png"
-
-    # Show/hide sections
     showSkills       = true
     showProjects     = false
     showPublications = true
