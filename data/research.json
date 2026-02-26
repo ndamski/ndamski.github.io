@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Shaping European Politics: Far-Right Populist Narratives in the 2024 EP Elections in Austria and Hungary",
+    "authors": "Armin Langer, Noah Damski & Olivia Weninger",
+    "journal": "Populism",
+    "volume": "Vol. 9 (2025), pp. 1–25",
+    "publisher": "Brill",
+    "year": 2025,
+    "status": "published",
+    "abstract": "This article analyzes the 2024 European Parliament campaign speeches of Austria's Herbert Kickl (FPÖ) and Hungary's Viktor Orbán (Fidesz) through comparative discourse analysis. Drawing on Cas Mudde's concept of populism and A. James McAdams's notion of Far-Right Newspeak, the study identifies key rhetorical strategies — nationalist framing, fear-based appeals, and the politicization of religion — and shows how both leaders construct moral binaries and redefine democratic norms while operating within formal democratic structures.",
+    "doi": "https://doi.org/10.1163/25888072-bja10089",
+    "pdf": "/langer-damski-weninger-populism.pdf"
+  },
+  {
+    "title": "Democratic Deficit and the Selection of the European Commission President",
+    "authors": "Noah Damski",
+    "field": "Political Science",
+    "status": "in-progress",
+    "abstract": "This paper argues that the current process for selecting the President of the European Commission produces a structural democratic deficit by weakening the electoral significance of European Parliament elections, reinforcing executive dominance by national leaders, and marginalizing parliamentary actors in ways that contradict the spirit of the Lisbon Treaty. The collapse of the Spitzenkandidaten experiment in 2019 serves as the central case through which these institutional tensions are examined."
+  },
+  {
+    "title": "Intra-Regional Trade Integration and EU–ACP Bilateral Trade",
+    "authors": "Noah Damski",
+    "affiliation": "Department of Economics, University of Florida",
+    "field": "Economics",
+    "status": "in-progress",
+    "abstract": "This paper examines whether intra-regional trade integration among African, Caribbean, and Pacific (ACP) countries acts as a stumbling block or building block for their bilateral trade with the European Union. Using a panel of 78 ACP countries across seven Regional Economic Communities paired with all 27 EU member states over 1995–2021, PPML gravity models find a significant stumbling-block effect: higher intra-REC trade shares are associated with lower EU–ACP bilateral trade. Economic Partnership Agreements significantly moderate this effect, suggesting deeper EU–ACP agreements can partially offset trade diversion from regional integration.",
+    "working_paper": "/EU_ACP_outline_and_main_results.pdf",
+    "data": "/eu_acp_panel.csv"
+  }
+]
