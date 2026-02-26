@@ -364,7 +364,8 @@
 
   /* RESPONSIVE */
   @media (max-width: 640px) {
-    .hero { grid-template-columns: 1fr; }
+    .hero { grid-template-columns: 1fr; text-align: center; }
+     .doc-links, .socials { justify-content: center; }
     .hero-photo { width: 140px; height: 155px; }
     nav .brand { display: none; }
     .event-row { grid-template-columns: 1fr; gap: 6px; }
@@ -397,9 +398,9 @@
           policy analysis, and financial technology.
         </p>
         <div class="doc-links">
-          <a href="/langer-damski-weninger-populism.pdf" class="doc-btn" target="_blank">
+          <a href="/Damski.CV.pdf" class="doc-btn" target="_blank">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-            CV / Resume
+            Resume
           </a>
           <a href="/State_Building_Final.pdf" class="doc-btn" target="_blank">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
@@ -446,12 +447,11 @@
         </p>
         <div class="paper-links">
           <a href="https://doi.org/10.1163/25888072-bja10089" class="paper-link" target="_blank">DOI</a>
-          <a href="https://brill.com/view/journals/popu/aop/article-10.1163-25888072-bja10089/article-10.1163-25888072-bja10089.xml" class="paper-link" target="_blank">Publisher Page</a>
           <a href="/langer-damski-weninger-populism.pdf" class="paper-link" target="_blank">PDF</a>
         </div>
       </div>
 
-      <div class="paper-card">
+      <div class="paper-card" id="paper-commission" style="scroll-margin-top: 120px;">
         <span class="paper-status status-progress">In Progress · Political Science</span>
         <h3>Democratic Deficit and the Selection of the European Commission President</h3>
         <div class="paper-authors">Noah Damski</div>
@@ -478,7 +478,8 @@
           offset trade diversion from regional integration.
         </p>
         <div class="paper-links">
-          <a href="/EU_ACP_outline_and_main_results.pdf" class="paper-link" target="_blank">Working Draft</a>
+          <a href="/EU_ACP_outline_and_main_results.pdf" class="paper-link" target="_blank">Working Paper</a>
+          <a href="/eu_acp_panel.csv" class="paper-link" target="_blank">Data</a>
         </div>
       </div>
 
@@ -490,9 +491,9 @@
     <div class="events-list">
 
       <div class="event-row">
-        <div class="event-date">Feb 19, 2026</div>
+        <div class="event-date">Nov 15, 2025</div>
         <div class="event-info">
-          <h3>Schuman Challenge — Round I</h3>
+          <h3>UF Model EU Competition</h3>
           <div class="event-venue">European Union Club · University of Florida</div>
           <p>Won UF's Model EU competition as a delegate for the European Union Club, qualifying
           to represent the University of Florida at the national Schuman Challenge in Washington, DC.
@@ -515,10 +516,15 @@
       <div class="event-row">
         <div class="event-date">Apr 9–10, 2026</div>
         <div class="event-info">
-          <h3>Undergraduate Research Conference</h3>
-          <div class="event-venue">University of Florida · Gainesville, FL</div>
-          <p>Presenting ongoing research at UF's undergraduate research conference. Details on
-          the paper and presentation to be announced.</p>
+          <h3><a href="https://www.scrippscollege.edu/eucenter/student-resources/urceu" target="_blank" 
+          style="color:inherit;text-decoration:none;border-bottom:1px solid var(--rule);"
+          >24th Undergraduate Research Conference on the European Union</a></h3>
+          <div class="event-venue">European Union Center of California · Scripps College, Claremont, CA</div>
+          <p>Presenting "<a href="#paper-commission"
+          style="color:inherit;text-decoration:none;border-bottom:1px solid var(--rule);">Democratic
+          Deficit and the Selection of the European Commission President</a>" at the oldest and largest
+          undergraduate EU research conference in the United States. Selected papers are published
+          in the <em>Claremont-UC Undergraduate Research Conference Journal on the European Union</em>.</p>
         </div>
       </div>
 
