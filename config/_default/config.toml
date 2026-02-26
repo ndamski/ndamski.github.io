@@ -1,23 +1,7 @@
-# Change baseurl before deploy
 baseURL = "https://ndamski.github.io/"
 languageCode = "en-us"
 title = "Noah Damski"
 defaultContentLanguage = "en"
-
-[params]
-    sections     = ["publications", "blog"]
-    firstName    = "Noah"
-    lastName     = "Damski"
-    address      = "Gainesville, Florida"
-    phone        = "786-205-1940"
-    contactEmail = "ndamski@ufl.edu"
-    description  = "Economics & International Studies student at the University of Florida."
-    profileImage = "img/avatar.png"
-    showSkills       = true
-    showProjects     = false
-    showPublications = true
-    showBlog         = true
-    showEducation    = true
 
 [params.favicon]
     path = "img/favicon.png"
