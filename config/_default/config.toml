@@ -2,6 +2,7 @@ baseURL = "https://ndamski.github.io/"
 languageCode = "en-us"
 title = "Noah Damski"
 defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "term"]
 
 [params.favicon]
     path = "img/favicon.png"
