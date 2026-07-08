@@ -308,15 +308,33 @@
     max-width: 600px;
   }
 
-  /* BLOG */
-  .blog-placeholder {
-    padding: 60px 0;
-    text-align: center;
+   /* BLOG */
+  .blog-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .blog-photo figure { margin: 0; }
+
+  .blog-photo img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 4px;
+    filter: grayscale(8%);
+    box-shadow: 4px 4px 0 var(--rule);
+  }
+
+  .blog-photo figcaption {
+    margin-top: 10px;
+    font-size: 0.8rem;
     color: var(--muted);
-    font-size: 0.9rem;
     font-style: italic;
-    border: 1px dashed var(--rule);
-    border-radius: 3px;
+  }
+
+  @media (max-width: 640px) {
+    .blog-gallery { grid-template-columns: 1fr; }
   }
 
   /* FOOTER */
@@ -549,10 +567,21 @@
     </div>
   </section>
 
-  <section id="blog">
+ <section id="blog">
     <div class="section-label">Blog</div>
-    <div class="blog-placeholder">
-      Posts coming soon — photos and notes from the field.
+    <div class="blog-gallery">
+      <div class="blog-photo">
+        <figure>
+          <img src="/Scripps_Conf.jpg" alt="Presenting at the Scripps College EU conference with a fellow UF delegate">
+          <figcaption>Presenting at the 24th Undergraduate Research Conference on the European Union with my fellow UF delegate.</figcaption>
+        </figure>
+      </div>
+      <div class="blog-photo">
+        <figure>
+          <img src="/Scripps_Landscape.jpg" alt="Scripps College campus">
+          <figcaption>Scripps College campus, Claremont, CA.</figcaption>
+        </figure>
+      </div>
     </div>
   </section>
 
